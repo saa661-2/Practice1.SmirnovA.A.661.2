@@ -151,7 +151,3 @@ void Cal::binary_operation_pressed()
     button->setChecked(true);
 
 }
-
-
-
-

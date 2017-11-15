@@ -123,13 +123,13 @@ border:1px solid grey;
     <enum>QLCDNumber::Flat</enum>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>230</y>
-     <width>250</width>
-     <height>24</height>
+     <x>10</x>
+     <y>200</y>
+     <width>251</width>
+     <height>89</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -175,15 +175,18 @@ border:1px solid grey;
       <property name="maxLength">
        <number>100</number>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+      </property>
      </widget>
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>250</y>
+     <x>10</x>
+     <y>270</y>
      <width>251</width>
      <height>55</height>
     </rect>
@@ -799,10 +802,10 @@ border:1px solid grey;
    </property>
    <property name="geometry">
     <rect>
-     <x>5</x>
-     <y>351</y>
-     <width>921</width>
-     <height>431</height>
+     <x>10</x>
+     <y>350</y>
+     <width>911</width>
+     <height>200</height>
     </rect>
    </property>
    <property name="font">
@@ -818,17 +821,67 @@ border:1px solid grey;
     <enum>QFrame::Sunken</enum>
    </property>
   </widget>
+  <widget class="QTextEdit" name="textEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>580</y>
+     <width>911</width>
+     <height>200</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>550</y>
+     <width>951</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+background-color:red;
+color:white;
+border:1px solid grey;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string>Package content</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
   <zorder>textEdit</zorder>
-  <zorder>verticalLayoutWidget_3</zorder>
   <zorder>label_5</zorder>
   <zorder>lcdNumber</zorder>
-  <zorder></zorder>
-  <zorder></zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget</zorder>
   <zorder>label</zorder>
   <zorder>pushButton</zorder>
-  <zorder>label_2</zorder>
   <zorder>verticalLayoutWidget</zorder>
   <zorder>verticalLayoutWidget_2</zorder>
+  <zorder>textEdit_2</zorder>
+  <zorder>label_10</zorder>
  </widget>
  <resources/>
  <connections/>

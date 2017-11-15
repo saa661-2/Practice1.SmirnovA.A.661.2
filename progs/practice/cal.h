@@ -25,8 +25,7 @@ private slots:
     void on_pushButton_clear_released();
     void on_pushButton_ravno_released();
     void binary_operation_pressed();
-    void on_pushButton_clear_clicked();
 
 };
 
-#endif // CAL_H
+#endif // CAL_H\
